@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: rgb(19, 4, 19);
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    width: 100%;
+    min-height: 100px;
+    background-color: purple;
+    color: #fff;
+    padding: 30px;
+}
+main {
+    background-color: rgb(19, 4, 19);
+    background-image: url("./images/pic1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav {
+    background-color: lightpink;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav > a {
+
+    margin-inline: 10px;
+    text-decoration: none;
+}
+nav  a:hover {
+    color: white;
+}
+h1 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.content {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+     background-color: hsl(100,20%, 20%);
+    color:#fff;
+}

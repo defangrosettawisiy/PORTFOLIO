@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT ME</title>
+</head>
+<body>
+    <a href="../PORTFOLIO.html">HOME PAGE</a>
+    <a href="./HOME.html">HOME</a>
+    <a href="./portfolio/ABOUT ME .html">ABOUT ME</a>
+    <a href="./portfolio/SKILLS.html">SKILLS</a>
+    <a href="./portfolio/EXPERIENCE.html">EXPERIENCE</a>
+    
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="FirstName">First Name <sup>*</sup></label>
+                <input type="text" id="FirstName" name="FirstName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="LastName">Last Name <sup>*</sup></label>
+                <input type="text" id="LastName" name="Last" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">First Name <sup>*</sup></label>
+                <input type="text" id="FirstName" name="FirstName" required>
+            </div>
+            <div class="radio-group">
+                <label>Query Type<sup>*</sup></label>a
+                <input type="radio" id="GeneralEnquiry" name="queryType"  value="general" required>
+                <label for="GeneralEnquiry">General Enquiry</label>
+
+                <input type="radio" id="supportrequest" name="queryType" value="general" required>
+                <label for="supportrequest">Support Request</label>
+            </div>
+            <div class="form-group">
+                <label for="text">Message<sup>*</sup></label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">I consent to being contacted by the team <sup>*</sup></label>
+            </div>
+        </form>
+    <div class="footer">
+        <button type="submit" >SUBMIT</button>
+    </div>
+    </div>
+</body>
+</html>
