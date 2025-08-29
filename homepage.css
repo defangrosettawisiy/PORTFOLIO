@@ -168,16 +168,61 @@ nav  a:hover {
     background-color: purple;
     box-shadow: 0 0 20px lightblue;
 }
+.skills {
+    background-color: rgb(19, 4, 19);
+    padding-bottom: 100px;
+    padding-top: 150px;
+    color: white;
+}
 .myskills {
     width: 100%;
     justify-content: space-between;
-    background-size: cover;
-    /* background-color: rgb(19, 4, 19);  */
+    background-size: cover;  
     justify-content: center;
     text-align: center;
 }
 .skillscontent {
     margin-left: 50px;
+}
+.bar {
+    font-size: 23px;
+}
+.Technical-bars {
+    margin-top: 40px 0;
+}
+.Technical-bars .bar:first-child {
+    margin-top: 0;
+}
+.Technical-bars .bar:last-child {
+    margin-top: 0;
+}
+.Technical-bars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact {
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    background-color: rgb(19, 4, 19);
+}
+.contactcontent {
+    text-align: left;
+    justify-content: center;
+    text-align: center; 
+    width: 40%;  
+    min-height: auto;
+    color: white;
+    /* flex-direction: column; */
+    margin-left: 30px;
+    margin-top: 100px;
+    flex-direction: column;    
 }
 @media (max-width:600px) {
     .container {
@@ -192,8 +237,46 @@ nav  a:hover {
     .service-description {
         font-size: 12px;
     }
+    .logo {
+        color: white;
+        text-decoration: none;
+        margin-right: 0px;
+        font-size: 10px;
+    }
     h1 {
         font-weight: 600;
         letter-spacing: 500;
     }
+    body {
+        font-size: 14px;
+      }
+    
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #f8f9fa; 
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        z-index: 10;
+      }
+    
+      .nav-links a {
+        margin: 10px 0;
+        display: block; 
+      }
+    
+      .nav-links.active {
+        display: flex;
+      }    
+    
+      .social-links a {
+        margin: 10px 0;
+      }
+    }
+    
 }
